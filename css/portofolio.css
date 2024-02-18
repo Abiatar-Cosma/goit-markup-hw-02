@@ -110,11 +110,13 @@ ul {
   width: 60px;
   height: 40px;
   border-radius: 4px;
+  border: none;
   list-style: none;
   padding: 0;
   display: flex;
   line-height: 3;
   text-align: center;
+  justify-content: center;
 }
 .filter-section button:hover {
   background: rgba(64, 75, 191, 1);
