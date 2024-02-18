@@ -1,0 +1,137 @@
+/* Stilizare generală pentru întreaga pagină */
+* {
+  font-family: "Roboto", "sans-serif";
+  color: rgba(46, 47, 66, 1);
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+/* global header */
+.global-header {
+  background: linear-gradient(rgba(231, 233, 252, 1), rgba(255, 255, 255, 1));
+  border-bottom: 1px solid rgba(231, 233, 252, 1);
+  width: 1440px;
+  height: 72px;
+  border: 0px, 0px, 1px, 0px;
+}
+/* main nav */
+
+.main-nav {
+  margin-left: 346px;
+  margin-right: 832px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  width: Hug (261px);
+  height: Hug (24px);
+  top: 24px;
+  left: 347px;
+  gap: 40px;
+}
+/* Logo */
+.logo-link {
+  width: Hug (115px);
+  height: Fixed (24px);
+  top: 24px;
+  left: 156px;
+  margin-left: 156px;
+  margin-right: 1169px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.logo-link .web {
+  color: rgba(77, 90, 229, 1);
+  width: 44px;
+  height: 21px;
+
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.logo-link .studio {
+  color: rgba(46, 47, 66, 1);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  width: 71px;
+  height: 21px;
+}
+.contact-link {
+  color: red;
+  font-style: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.mailto .contact-link {
+  padding-left: 940px;
+  padding-right: 347px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 153px;
+  height: 24px;
+  top: 24px;
+  left: 940px;
+}
+.tel .contact-link {
+  margin-left: 1133px;
+  margin-right: 156px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  width: 151px;
+  height: 24px;
+  top: 24px;
+  left: 1133px;
+}
+/* hero section */
+.hero-section {
+  font-family: Roboto;
+  background-color: rgba(46, 47, 66, 1);
+  width: 1440px;
+  height: 600px;
+  top: 72px;
+}
+.hero-section .hero-title {
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 1);
+  padding-top: 188px;
+  padding-right: 472px;
+  padding-left: 472px;
+  width: 496px;
+  height: 120px;
+  top: 260px;
+  left: 472px;
+}
+.hero-section button {
+  background-color: rgba(77, 90, 229, 1);
+  color: rgba(255, 255, 255, 1);
+  margin-left: 636px;
+  margin-left: 635px;
+  margin-bottom: 138px;
+  width: 169px;
+  height: 56px;
+  top: 428px;
+  left: 636px;
+  padding: 16px, 32px, 16px, 32px;
+  border-radius: 4px;
+  gap: 10px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+}
